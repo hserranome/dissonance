@@ -65,6 +65,11 @@ subprojects {
             url "https://maven.saps.dev/minecraft"
             content {
                 includeGroup "dev.latvian.mods"
+            }
+        }
+        maven {
+            url "https://maven.ftb.dev/releases/"
+            content {
                 includeGroup "dev.ftb.mods"
             }
         }
